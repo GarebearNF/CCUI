@@ -1,0 +1,16 @@
+{
+  "name": "CCUI",
+  "title": "Casting Chaos UI",
+  "description": "A for Foundry VTT made for the Casting Chaos D&D stream.",
+  "version": "0.1.1",
+  "author": "Syphre",
+  "scripts": [ "CCUI.js" ],
+  "styles": [ "CCUI.css" ],
+  "esmodules": [],
+  "packs": [],
+  "url": "https://github.com/GarebearNF/CCUI",
+  "manifest": "k",
+  "download": "https://www.dropbox.com/s/9kxo888g73er35j/CC%20UI.zip?dl=1",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.8.3"
+}

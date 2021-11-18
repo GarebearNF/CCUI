@@ -4,13 +4,46 @@
   "description": "A for Foundry VTT made for the Casting Chaos D&D stream.",
   "version": "0.1.1",
   "author": "Syphre",
-  "scripts": [ "CCUI.js" ],
-  "styles": [ "CCUI.css" ],
-  "esmodules": [],
-  "packs": [],
+  "version": "1.5.4",
   "url": "https://github.com/GarebearNF/CCUI",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "1.0.0",
+  "scripts": [
+    "scripts/rpg-ui.js",
+    "scripts/pathfinder-chat-color.js"
+  ],
+  "esmodules": [
+    "scripts/dicefinder.js"
+  ],
+  "styles": [
+    "css/cursor.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French (French)",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "packs": [],
+  "system": [
+    "dnd5e"
+  ],
+  "dependencies": [],
+  "socket": false,
   "manifest": "https://raw.githubusercontent.com/GarebearNF/CCUI/main/module.json",
   "download": "https://www.dropbox.com/s/9kxo888g73er35j/CC%20UI.zip?dl=1",
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.8.3"
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
